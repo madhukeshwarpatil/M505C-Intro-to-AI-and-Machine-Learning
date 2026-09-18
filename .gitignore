@@ -1,0 +1,26 @@
+# Keep only:
+#   M505_Used_Car_Price_Prediction.ipynb
+#   M505_Used_Car_Price_Prediction.html
+#   data/*.csv
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Original source CSV at repo root (data/*.csv is the copy to keep)
+/Used_Car_Price_Prediction.csv
+
+# Assessment briefs
+*.pdf
+
+# Local scratch
+work/
+untitled folder/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
